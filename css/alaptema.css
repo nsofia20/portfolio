@@ -1,0 +1,90 @@
+.focim{
+	color: black;
+	background-color: pink;
+	font-size: 25px;
+}
+
+.flex-container {
+  display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > a{
+  
+  margin: 10px;
+  padding: 70px;
+  font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+}
+.nav{
+	background-color: #f1f1f1;
+}
+
+#navlogo{
+	width: 50px;
+	height: 50px;
+}
+
+nav > a.navlist {
+ background-color: #f1f1f1;
+  margin: 10px;
+  padding: 70px;
+  font-size: 30px;
+}
+.focim{
+	text-align: center;
+}
+.logo1.png{
+	text-align: center;
+}
+
+.bemutatkozas_body {
+ justify-content: center;
+  align-items: center;
+
+}
+
+.bemutatkozas_szoveg {
+	background-color: red;
+	max-width: 40%;
+	padding: 30px;
+}
+
+.index_container {
+	 justify-content: center;
+  align-items: center;
+}
+
+.index_div{
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.index_div > .index_logo {
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+
+}
+
+.center_text {
+	text-align: center;
+}
+
+body {
+	
+	margin: 0;
+
+}
+
+.images {
+	max-width: 400px;
+	padding: 10px;
+}
