@@ -1,10 +1,9 @@
-"# portfolio" 
-1. Open the file.
-2. Find the following code block on line 21:
+# portfolio
+1. Commit with git:
 
         git commit -m "<Ide kell a messaget berakni>"
-        
+
+3. Push the commit to github:
+
         git push -u origin main
         
-
-3. Update the title to match the name of your website.
