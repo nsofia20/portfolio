@@ -5,15 +5,19 @@ https://nsofia20.github.io/portfolio/
 
         cd C:\Users\Zsofi\Documents\Info 1\portfólió
         
-0.5 Add all new files if any
+1. Add all new files if any:
 
         git add -A
 
-1. Commit with git:
+2. Pull changes from remote depot:
+
+        git pull
+
+3. Commit with git:
 
         git commit -m "<Ide kell a messaget berakni>"
 
-3. Push the commit to github:
+4. Push the commit to github:
 
         git push -u origin main
         
