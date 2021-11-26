@@ -13,3 +13,17 @@ https://nsofia20.github.io/portfolio/
 
         git push -u origin main
         
+# Resources:
+
+https://www.freecodecamp.org/news/css-selectors-cheat-sheet/
+
+A selektorok a css fájlban vannak, a tagek, class-ok, id-k a html-ben.
+
+Tags: <head>,<body> etc. 
+   selector: head, body
+
+Classes: class="class1 class2"
+  selector: .class1, .class2
+
+Ids: id="id1"
+  selector: #id1
