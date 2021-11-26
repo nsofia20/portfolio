@@ -3,7 +3,7 @@ https://nsofia20.github.io/portfolio/
 
 0. Search for "cmd" in the windows search bar, run it and run :
 
-        cd  git push -u origin main
+        cd C:\Users\Zsofi\Documents\Info 1\portfólió
 
 1. Commit with git:
 
