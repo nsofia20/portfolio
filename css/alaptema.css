@@ -3,7 +3,10 @@
 	text-align: center;
 	font-size: 30px;
 	width: 30%;
+	min-width: 320px;
+	max-width: 670px;
 	background-color:#fa6262 ;
+	border-radius: 5px;
 }
 
 .flex-container {
@@ -13,14 +16,33 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .flex-container {
     flex-direction: column;
+	width: 100%;
+	
   }
+  .flex-container > .navlist {
+	width: 80%;
+	padding: 40px 5% ;
+	margin: 10px 5%;
+	text-align: center;
+  }
+
+}
+
+@media (max-width: 1650px){
+	.flex-container.tervezes{
+		flex-direction: column;
+	}
 
 }
 .nav{
 	background-color: #fa6262;
+}
+
+.navlist{
+	border-radius: 5px;
 }
 
 #navlogolink{
@@ -78,15 +100,16 @@ nav > a:link, nav > a:visited, nav > a:active {
 }
 
 .index_div{
-	
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
 .index_div > .index_logo {
-	margin-left: 35%;
-	margin-right: 35%;
+
 	width: 30%;
+	max-width: 400px;
+	min-width: 320px;
 
 }
 
@@ -102,13 +125,14 @@ body {
 }
 
 .images {
-	max-width: 400px;
-	padding: 10px;
+	max-width: 500px;
+	margin: 20px;
 }
 
 #profilkep{
 	max-width: 400px;
-	padding: 40px;
+	margin: 40px;
+	width: 70%;
 }
 
 .nav{
@@ -118,7 +142,7 @@ body {
 
 .munkaim_flex_box > img {
 	max-width: 300px;
-	padding: 20px;
+	margin: 20px;
 }
 
 .title{
@@ -126,6 +150,21 @@ body {
 }
 
 .tervezes_body{
+	width: 70%;
 	padding: 20px;
 	font-size: 20px;
+	text-align: center;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.column{
+	flex-direction: column;
+	align-items: center;
+}
+.lista{
+	width: 25%;
+	text-align: left;
 }
